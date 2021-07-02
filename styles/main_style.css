@@ -399,6 +399,7 @@ body {
     margin-bottom: 20px;
     background-size: cover;
     transition: 300ms linear;
+    transition-property: transform, filter;
     cursor: pointer;
 }
 

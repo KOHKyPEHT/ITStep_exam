@@ -49,9 +49,12 @@
     padding-top: 40px;
     padding-bottom: 50px;
   }
-
+  .content__info {
+    margin-right: 30px;
+  }
   .content__video {
     margin-top: 40px;
+    margin-left: 0;
   }
 
   /* Functions */
@@ -169,6 +172,15 @@
   }
 }
 
+@media (max-width: 950px) {
+  .features__title {
+    font-size: 36px;
+  }
+  .features__link {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     max-width: none;
@@ -178,23 +190,28 @@
   .header__title {
     font-size: 46px;
   }
+  .content__video {
+    margin-top: 20px;
+  }
 
   /* Main */
   .main__title {
     font-size: 36px;
   }
 
-  /* Features */
-  .features__title {
-    font-size: 36px;
-  }
-
-  .features__link {
-    font-size: 16px;
-  }
-
   .portfolio__example {
     width: calc(50% - (40px / 2));
+  }
+
+  /* Features */
+  .features__filter {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .features__link {
+    font-size: 20px;
+    margin-top: 10px;
   }
 
   /* Team */
@@ -216,5 +233,210 @@
     width: calc(50% - 20px);
     height: 300px;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+  .subscribe__title, .subscribe__subtitle, .subscribe__form {
+    padding: 0 10px;
+  }
+
+  .contact__content {
+    width: 100%;
+    max-width: 730px;
+  }
+  .contact__subtitle {
+    padding: 0 10px;
+  }
+  .form__top {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .form__top input {
+    margin: 10px 5px;
+    width: 95%;
+  }
+  .form__bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .form__bottom__text {
+    width: 95%;
+    padding: 10px;
+  }
+  .bottom__submit {
+    width: 95%;
+  }
+}
+
+@media (max-width: 676px) {
+  .header__title {
+    font-size: 36px;
+    white-space: normal;
+  }
+  .header__subtitle {
+    font-size: 16px;
+    white-space: normal;
+  }
+  .content__info {
+    margin-right: 0;
+  }
+  .content__video {
+    margin-top: 0;
+  }
+
+  .features__filter {
+    flex-wrap: wrap;
+  }
+
+  .team__subtitle {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .other__members {
+    width: 100%;
+    max-width: 850px;
+  }
+
+  .member__info {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .member__social {
+    flex-wrap: wrap;
+  }
+
+  .subscribe__form {
+    flex-wrap: wrap;
+  }
+  .form__submit {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Header */
+  .header {
+    padding-top: 0;
+  }
+
+  /* Portfolio */
+  .features__portfolio {
+    justify-content: center;
+  }
+  .portfolio__example {
+    width: 90%;
+    background-position-y: 50%;
+  }
+
+  /* Main */
+  .member__list {
+    flex-direction: column;
+  }
+  .list__unit {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Subscribe */
+  .subscribe__title {
+    font-size: 36px;
+  }
+  /* Contact */
+  .contact {
+    padding-bottom: 0;
+  }
+  .contact__split {
+    margin-bottom: 15px;
+  }
+
+  /* Footer */
+  .footer .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer__copyright {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__navbar a {
+    display: none;
+  }
+  .header__navbar {
+    height: 50px;
+  }
+  .main__info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info__element {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 80px;
+  }
+  .info__element:last-child {
+    margin-bottom: 40px;
+  }
+  .main__text {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 370px) {
+  .header__title {
+    font-size: 24px;
+  }
+  .header__subtitle {
+    font-size: 14px;
+  }
+
+  /* Members */
+  .member__description {
+    height: auto;
+    margin-bottom: 0;
+  }
+  .member__social {
+    margin-bottom: 20px;
+  }
+  .member__social__link {
+    margin: 15px;
+  }
+
+  /* Subscribe */
+  .subscribe__title {
+    font-size: 24px;
+  }
+  .subscribe__subtitle {
+    font-size: 14px;
+  }
+  .form__email {
+    height: 60px;
+  }
+  .form__submit {
+    height: 60px;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  /* Contact */
+  .contact__title {
+    font-size: 36px;
+  }
+  .form__top input {
+    height: 60px;
+    padding-left: 10px;
+  }
+  .bottom__submit {
+    height: 60px;
+  }
+  /* Footer */
+  .footer__copyright {
+    text-align: center;
   }
 }
