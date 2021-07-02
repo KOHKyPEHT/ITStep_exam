@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   animation: 4700ms scroll__lock linear forwards;
 }
 
