@@ -8,7 +8,7 @@ html, body {
   animation: 4700ms scroll__lock linear forwards;
 }
 
-.loading__screen {
+/* .loading__screen {
   position: fixed;
   overflow-y: hidden;
   width: 100vw;
@@ -66,7 +66,7 @@ html, body {
   top: calc(50% - 10px);
   color: white;
   animation: 3000ms countdown linear forwards;
-}
+} */
 
 @keyframes rotation__anim {
   to {

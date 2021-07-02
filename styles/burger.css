@@ -14,7 +14,7 @@
   transition-duration: 400ms;
   transition-property: transform;
 
-  cursor: pointer;
+  cursor: url(../media/cursors/pointer.png), pointer;
 }
 
 .burger__input__label::before,
