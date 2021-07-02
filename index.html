@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Landing, Agency, Agency Landing, ITStep, IT Step">
+    <meta name="description" content="This page is exam work, made by one of students of IT school called 'IT Step Academy'.">
+    <meta name="author" content="Viktor Kushnirenko">
     <title>Agency</title>
+    <link rel="shortcut icon" href="media/icons/website_icon.png" type="image/png">
     <link rel="stylesheet" href="styles/main_style.css">
-    <!-- <link rel="stylesheet" href="styles/loading_screen_style.css"> -->
+    <link rel="stylesheet" href="styles/loading_screen_style.css">
+    <link rel="stylesheet" href="styles/burger.css">
     <link rel="stylesheet" href="styles/media_styles.css">
 </head>
 <body>
 
 <!--------------------- Loading screen ------------------------->
 
-<!-- <div class="loading__screen">
+<div class="loading__screen">
     <div class="circle"></div>
     <div class="count__percenage"></div>
-</div> -->
+</div>
     
+<!-- =============== Anchors ================== -->
+<a href="#home" class="anchor anchor__top"></a>
+<a href="#footer" class="anchor anchor__bottom"></a>
+
+
 <!-- ============== Header ==================  -->
     <header class="header" id="home">
         <div class="container">
@@ -28,6 +38,16 @@
                 <a href="#portfolio" class="navbar__link">portfolio</a>
                 <a href="#about_us" class="navbar__link">about us</a>
                 <a href="#contact" class="navbar__link">contact</a>
+
+                <input type="checkbox" class="burger__input" id="burger">
+                <label class="burger__input__label" for="burger"></label>
+                <div class="burger__menu">
+                    <a href="#home" class="burger__item">home</a>
+                    <a href="#portfolio" class="burger__item">portfolio</a>
+                    <a href="#about_us" class="burger__item">about us</a>
+                    <a href="#contact" class="burger__item">contact</a>
+                </div>
+
             </div>
             <div class="header__content">
                 <div class="content__info">
@@ -205,7 +225,7 @@
     </section>
 
 <!-- ==================== Footer =========================== -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <p class="footer__copyright">© Copyright @Junaed 2016, All rights reserved.</p>
             <div class="footer__social">

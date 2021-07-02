@@ -18,7 +18,7 @@ body {
   align-items: center;
   background-color: black;
   animation: 1500ms disappearing 3200ms linear forwards;
-  z-index: 5;
+  z-index: 50;
 }
 
 .circle {
