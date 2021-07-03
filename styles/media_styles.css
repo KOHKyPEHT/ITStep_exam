@@ -182,6 +182,18 @@
 }
 
 @media (max-width: 768px) {
+  .anchor {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+  }
+  .anchor__top {
+    bottom: 60px;
+  }
+  .anchor__bottom {
+    bottom: 10px;
+  }
+
   .container {
     max-width: none;
   }
@@ -319,18 +331,7 @@
 }
 
 @media (max-width: 540px) {
-  /* Anchors */
-  .anchor {
-    width: 30px;
-    height: 30px;
-    right: 10px;
-  }
-  .anchor__top {
-    bottom: 60px;
-  }
-  .anchor__bottom {
-    bottom: 10px;
-  }
+
   
 
   /* Header */
