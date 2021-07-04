@@ -284,6 +284,16 @@
 }
 
 @media (max-width: 676px) {
+  .main h2 {
+    font-size: 32px;
+  }
+  .main h3 {
+    font-size: 24px;
+  }
+  .main__features {
+    margin-top: 60px;
+  }
+
   .header__title {
     font-size: 36px;
     white-space: normal;
@@ -327,6 +337,10 @@
   }
   .form__submit {
     margin-top: 20px;
+  }
+
+  .contact__title {
+    font-size: 32px;
   }
 }
 
@@ -434,8 +448,16 @@
   .header__title {
     font-size: 24px;
   }
+  
   .header__subtitle {
     font-size: 14px;
+  }
+  /* Main */
+  .main h2 {
+    font-size: 20px;
+  }
+  .main h3 {
+    font-size: 18px;
   }
 
   /* Subscribe */
@@ -456,7 +478,7 @@
 
   /* Contact */
   .contact__title {
-    font-size: 36px;
+    font-size: 18px;
   }
   .form__top input {
     height: 60px;
